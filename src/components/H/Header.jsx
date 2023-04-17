@@ -1,5 +1,6 @@
 import React from "react";
 import Fotoperfil from '../../assets/avatar.jpg'
+
 function Header () {
 
     return (
