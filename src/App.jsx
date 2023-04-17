@@ -7,32 +7,28 @@ import Footer from './components/F/Footer';
 import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 
 function App() {
-
   return (
-<>
-<Header></Header>
+    <>
+      <Header></Header>
 
-    <BrowserRouter>
-    <nav>
-        <ul>
-            <li ClassName="button"> <Link to="/">Currículo</Link>
-            <li ClassName="button"> <a href="Pages/portfolio.html">Portfólio</a></li>
-            <li ClassName="button"> <a href="Pages/contato.html">Contato</a></li>
-        </ul>
-    </nav>
-      <Routes>
-         <Route index element={<Curriculo />} />
+      <BrowserRouter>
+        <nav>
+          <ul>
+            <li className="button"> <Link to="/">Currículo</Link></li>
+            <li className="button"> <Link to="portfolio">Portfólio</Link></li>
+            <li className="button"> <Link to="contato">Contato</Link></li>
+          </ul>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<Main />} />
           <Route path="portfolio" element={<Portfolio />} />
-          </Route>
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
 
-<Footer></Footer>
-
-</>
-  )
+      <Footer></Footer>
+    </>
+  );
 }
 
-
-
-export default App
+export default App;
