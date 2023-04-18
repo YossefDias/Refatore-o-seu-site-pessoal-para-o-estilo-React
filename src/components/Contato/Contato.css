@@ -1,0 +1,29 @@
+form {
+    width: 400px;
+    padding: 30px;
+    margin: 100 auto;
+    border-radius: 15px;
+    background-color: #8697A6;
+}
+
+form fieldset{
+    border: 0    
+}
+
+form fieldset label{
+    color: #1D1D1F;
+    display:block
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+form fieldset input, textarea{
+    width: 100%;
+
+}
+#submit-contact {
+    margin: 5px;
+    width: 100px;
+}
