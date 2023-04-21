@@ -1,10 +1,15 @@
 form {
+
     width: 400px;
-    padding: 30px;
-    margin: 100 auto;
+    padding: 40px;
+    margin: 50px;
     border-radius: 15px;
     background-color: #8697A6;
-}
+    transform: translate(100%, 1%);
+  top: 50%;
+  left: 50%;
+      }
+      
 
 form fieldset{
     border: 0    

@@ -1,9 +1,11 @@
 import React from "react";
 import "./Contato.css";
 
-<>
+function Contato () {
+
+return (
 <main>
-<form onsubmit="event.preventDefault()">
+    <form onsubmit="event.preventDefault()">
     <fieldset>
              <label for="input-nome">Nome</label>
              <input type="text" name="input-nome" id="input-nome" required minlength="2"/>            
@@ -28,8 +30,9 @@ import "./Contato.css";
     </fieldset>
     
 </form>
-    </main>
+     </main>
 
-</>
+)
+}
 
 export default Contato 
